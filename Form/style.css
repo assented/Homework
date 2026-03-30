@@ -1,0 +1,24 @@
+form {
+  width: 240px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: block;
+}
+input {
+  text-shadow: 13px;
+}
+h4 {
+  margin: 0px;
+  width: 200px;
+}
+textarea {
+  height: auto;
+  resize: vertical;
+}
+button {
+  cursor: pointer;
+  border: 0;
+}
