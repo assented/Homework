@@ -1,0 +1,29 @@
+header {
+  border-bottom: 10px;
+  padding: 1px;
+  border-color: #555;
+}
+.container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  border-bottom: 1px solid #555;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  color: black;
+  background-color: black;
+}
+.text {
+  color: #555;
+  font-display: auto;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
