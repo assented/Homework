@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.article {
+  max-width: 1250px;
+  max-height: 1977px;
+}
+.title {
+  margin-top: 80px;
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 115%;
+  text-transform: uppercase;
+  max-width: 719px;
+  max-height: 275px;
+  padding: 15px;
+}
+.text {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+  margin: 0 auto;
+  padding: 15px;
+}
+.img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.HII {
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 115%;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+.article-decor-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 548px;
+  height: 48px;
+  background: url(..//images/decor-icon.svg);
+}
+
+.article-decor-wrapper-1::before {
+  top: 650px;
+  left: -220px;
+}
+.article-decor-wrapper-2::before {
+  bottom: -1128px;
+  right: -190px;
+}
+.article-ul {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+  margin: 0 auto;
+}
+::marker {
+  color: #3596ed;
+  font-size: 22px;
+  padding-left: 16px;
+}
+.art {
+  margin-top: 80px;
+}
+.video {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.article-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  background-color: #3596ed;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
